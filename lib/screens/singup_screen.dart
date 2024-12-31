@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+import 'admin_dashboard.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});
@@ -129,6 +132,7 @@ class SignupScreen extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {
                       // Handle sign up
+                        Get.to(AdminDashboard());
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.blue,

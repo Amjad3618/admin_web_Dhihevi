@@ -1,3 +1,4 @@
+import 'package:admin_web/screens/admin_dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -115,6 +116,7 @@ class LoginScreen extends StatelessWidget {
                   ElevatedButton(
                     onPressed: () {
                       // Handle login
+                      Get.to(AdminDashboard());
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.blue,
